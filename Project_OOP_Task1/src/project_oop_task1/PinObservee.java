@@ -1,18 +1,8 @@
 package project_oop_task1;
-public class PinObservee {
+public interface PinObservee {
     
-    PinObserver obj;
-    public void RegisterObserver()
-    {
-    
-    }
-    public void DeleteObserver()
-    {
-    
-    }
-    public void Notify()
-    {
-    
-    }
+    public void AddObserver(PinObserver o);
+    public void DeleteObserver(PinObserver o);
+    public void Notify();
     
 }
